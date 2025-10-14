@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/nav_footer.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="icon" href="./assets/imagenes/favicon.jpg">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar p-3 ">
+            <div class="d-flex w-100 align-items-center justify-content-between">
+                <img src="./assets/imagenes/small-logo.PNG" alt="Logo Cuatrovientos" class="img-fluid logo">
+                <ul class="ul-menu d-flex list-unstyled mb-0">
+                    <li class="nav-li"><a class="nav-link " href="./index.html">Index</a></li>
+                    <li class="nav-li"> <a class="nav-link " href="./events.html">Events</a></li>
+                    <li class="nav-li"> <a class="nav-link " href="./contactar.html">Contactar</a></li>
+                    <li class="nav-li"><a class="nav-link " href="./login.html">Iniciar sesión</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="sign-container">
+            <h2 class="sign-title">Regístrate</h2>
+            <form>
+
+                <!-- Nombre -->
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                </div>
+
+                <!-- Correo -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com">
+                </div>
+
+                <!-- Contraseña -->
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="password" placeholder="********">
+                </div>
+
+                <!-- Confirmar Contraseña -->
+                <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirmar contraseña</label>
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="********">
+                </div>
+
+                <!-- Botón de registro -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-lg w-100">Registrarme</button>
+                </div>
+            </form>
+
+            <div class="text-center mt-3">
+                <span>¿Ya tienes cuenta? <a href="./login.html" class="sig">Inicia sesión</a></span>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <footer class="footer">
+                    <div class="footer-container">
+                        <p>&copy; 2025 IAW. Todos los derechos reservados.</p>
+                    </div>
+                    <p>Contacto: secretaria@cuatrovientos.org | Teléfono: 948 12 41 29</p>
+                    <div class="footer-redes">
+                        <a href="https://www.facebook.com/cipcuatrovientos/"><img src="./assets/imagenes/facebook.png"
+                                alt="Facebook"></a>
+                        <a href="https://www.instagram.com/cipcuatrovientos/?hl=es"><img
+                                src="./assets/imagenes/instagram.png" alt="Instagram"></a>
+                        <a
+                            href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F4994017%2Fadmin%2Ffeed%2Fposts%2F"><img
+                                src="./assets/imagenes/linkedin.png" alt="Linkedin"></a>
+                        <a href="https://www.cuatrovientos.org/"><img src="./assets/imagenes/internet.png"
+                                alt="Internet"></a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

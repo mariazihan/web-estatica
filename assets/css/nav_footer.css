@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar,
+.footer {
+    background-color: #ff8ff9;
+}
+
+.navbar .nav-link {
+    color: #f8f9fa;
+    font-weight: 500;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover {
+    background-color: #f312b0;
+    color: #fff;
+}
+
+.navbar .nav-link:visited {
+    color: #43003b;
+
+}
+
+.navbar a {
+    display: block;
+}
+
+.logo {
+    height: 40px;
+
+}
+
+/* Ajuste en pantallas pequeñas */
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: 0.8rem;
+        padding: 6px 8px;
+    }
+
+    .navbar-container {
+        justify-content: center;
+        /* Opcional: centra el contenido si no cabe en una línea */
+    }
+}
+
+.ul-menu {
+    display: flex;
+    flex-wrap: wrap;
+    /* Los enlaces se adaptan en varias líneas si es necesario */
+    list-style: none;
+    gap: 15px;
+    /* Espacio entre los enlaces */
+    margin: 0;
+    padding: 0;
+}
+
+
+/*FOOTER*/
+.footer {
+    font-weight: 500;
+    color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer img {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.footer-redes {
+    margin-top: 20px;
+}
+
+.footer-redes a {
+    margin: 0 10px;
+}
+
+footer {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.footer p {
+    color: black;
+}
+
+/*BODY */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}

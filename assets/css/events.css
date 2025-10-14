@@ -1,0 +1,45 @@
+.card {
+    width: 18rem
+}
+
+main {
+    flex: 1;
+    /* el contenido ocupa el espacio disponible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* hace que el body ocupe toda la pantalla */
+}
+
+.card-header {
+    font-size: large;
+}
+
+.card-title {
+    font-size: small;
+}
+
+.btn {
+    background-color: #b300ff;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #f312b0;
+    color: white;
+}
+
+.title {
+    margin-top: 10px;
+    text-align: center;
+    color: #d80097;
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+}

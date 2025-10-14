@@ -1,0 +1,45 @@
+.description {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    /* Ancho máximo para no ocupar toda la pantalla */
+    margin: 10px auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    /* Mejor lectura del texto */
+    color: #333;
+}
+
+.description h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #d80097;
+    display: inline-block;
+    /* Para que la línea se ajuste al ancho del texto */
+}
+
+.description p {
+    font-size: 1em;
+    text-align: justify
+}
+
+.street-lamp {
+    max-width: 400px;
+    /* ancho máximo que quieres */
+    height: auto;
+    /* mantiene la proporción de la imagen */
+}
+
+
+.title {
+    margin-top: 10px;
+    text-align: center;
+    color: #d80097;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+
+}

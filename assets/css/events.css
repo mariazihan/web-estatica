@@ -36,10 +36,14 @@ body {
     color: white;
 }
 
-.title {
-    margin-top: 10px;
+.title_events {
+    margin-top: 30px;
     text-align: center;
     color: #d80097;
     font-weight: 1000;
     font-family: 'Courier New', Courier, monospace;
+}
+
+#browser {
+    margin-top: 30px;
 }
